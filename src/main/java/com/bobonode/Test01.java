@@ -14,6 +14,8 @@ public class Test01 {
 
 
             System.out.println(i);
+
         }
+        System.out.println("波波");
     }
 }

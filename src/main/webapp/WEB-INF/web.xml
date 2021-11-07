@@ -4,4 +4,12 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>UserController</servlet-name>
+    <servlet-class>com.bobonode.crm.settings.web.controller.UserController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserController</servlet-name>
+    <url-pattern>/settings/user/*.do</url-pattern>
+  </servlet-mapping>
 </web-app>
